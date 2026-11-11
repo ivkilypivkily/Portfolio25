@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IVKIPIVKI.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="Slike/LOGO/Logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <div class="gradient-bg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+            </svg>
+            <div class="gradients-container">
+                <div class="g1"></div>
+                <div class="g2"></div>
+                <div class="g3"></div>
+                <div class="g4"></div>
+                <div class="interactive"></div>
+            </div>
+        </div>
+    <header>
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" id="logo"><img src="Slike/LOGO/Logo1.png" alt="IVKIPIVKI logo"></a>
+                </div>
+                <div class="header-nav">
+                    <nav>
+                        <div class="hide-wrapper">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                            
+                        <button onclick="showNav()" id="menu-button">
+                            <img src="Slike/Icon/burger.svg">
+                        </button>
+                        <div class="menu" id="menu" style="height: 0px;">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                             <a href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="contactpage-maincontent">
+            <h1><span>ivkilypivkily</span><br>@gmail.com</h1>
+            <p>Thank you for taking the time to fill out my form! I’m excited to collaborate with you. 
+                Please share as much detail as possible so we can create something <b style="color: #E65994;">amazing</b> together!
+            </p>
+        </div>
+        <img src="Slike/Icon/strelica.svg" alt="arrow">
+        <div class="forma">
+            <div class="contact-form">
+                <form onsubmit="return openPopup()">
+                    <input type="text" name="Name" placeholder="Enter your name here" required>
+                    <input type="email" name="Email" placeholder="Enter your email here" required>
+                    <textarea name="Message" placeholder="Enter your idea here" rows="6" required></textarea>
+                    <button class="button" type="submit">Send</button>
+
+                    <div class="overlay" id="overlay"></div>
+                    <div class="popup" id="popup">
+                        <img src="Slike/LOGO/Logo1.png" alt="Logo">
+                        <h2>Thank you</h2>
+                        <p>for reaching out!<br> let’s make something amazing together!</p>
+                        <button type="button" class="button" onclick="closePopup()">OK</button>
+                    </div>
+
+                </form>
+            </div>
+            <img src="Slike/ivkipivki.png" alt="Ivkipivki illustration">
+        </div>
+    </main>
+
+    <footer>
+            <div class="footer-wrapper">
+                <div class="footer-contact">
+                    <a href="index.html"><img src="Slike/LOGO/Logo2.png" alt="IVKIPIVKI logo"></a>
+                    <h3>IVKIPIVKI.</h3>
+                    <p>ivkilypivkily@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <p>you can also find me on:</p>
+                    <a href="https://www.instagram.com/ivkiipivkii" target="_blank"><img src="Slike/FOOTER/ig.svg" alt="instagram @ivkiipivkii"></a>
+                    <a href="https://www.linkedin.com/in/ivananikolovski" target="_blank"><img src="Slike/FOOTER/in.svg" alt="linkedin Ivana Nikolovski"></a>
+                    <a href="https://www.behance.net/ivkipivki" target="_blank"><img src="Slike/FOOTER/behance.svg" alt='behance ivkipivki'></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Copyright | IVKIPIVKI</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>

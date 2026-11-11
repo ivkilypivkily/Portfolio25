@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IVKIPIVKI.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="Slike/LOGO/Logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="gradient-bg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+            </svg>
+            <div class="gradients-container">
+                <div class="g1"></div>
+                <div class="g2"></div>
+                <div class="g3"></div>
+                <div class="g4"></div>
+                
+                <div class="interactive"></div>
+            </div>
+        </div>
+    <header>
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" id="logo"><img src="Slike/LOGO/Logo1.png" alt="IVKIPIVKI logo"></a>
+                </div>
+                <div class="header-nav">
+                    <nav>
+                        <div class="hide-wrapper">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                            
+                        <button onclick="showNav()" id="menu-button">
+                            <img src="Slike/Icon/burger.svg">
+                        </button>
+                        <div class="menu" id="menu" style="height: 0px;">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                             <a href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="Usluge-wrapper">
+            <h1>check out my services...<br>there’s something perfect for you!</h1>
+            <div class="servicespage-wrapper">
+                <div class="service">
+                    <input type="checkbox" id="s1">
+                    <label class="service-name" for="s1">
+                        <span>Graphic Design</span>
+                    </label>
+
+                    <div class="servicespage-content">
+                        <p>
+                        I specialize in creating <b>Logo Design</b> that captures 
+                        the essence of your brand, ensuring a strong and memorable identity.<br>
+                        I offer <b>Stickers & Digital Graphics—custom designs</b> that elevate your brand’s 
+                        visual presence across marketing materials and social media platforms.<br>
+                        Whether you need a distinctive <b>logo or eye-catching digital assets</b>, 
+                        I provide creative solutions that leave a lasting impression.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <input type="checkbox" id="s2">
+                    <label class="service-name" for="s2">
+                        <span>Web Design</span>
+                    </label>
+
+                    <div class="servicespage-content">
+                        <p>
+                        I specialize in <b>UI/UX Design</b>, creating intuitive and 
+                        visually appealing user interfaces that provide seamless and engaging digital 
+                        experiences for websites and apps.<br>
+                        I bring your website to life with <b>clean, responsive, and interactive web pages</b>, 
+                        ensuring a smooth user experience across all devices, whether it's a simple site 
+                        or a dynamic project.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <input type="checkbox" id="s3">
+                    <label class="service-name" for="s3">
+                        <span>Illustration</span>
+                    </label>
+
+                    <div class="servicespage-content">
+                        <p>
+                        I offer <b>Portrait Drawing</b> services, creating <b>hand-drawn, 
+                        personalized portraits</b> that capture the unique essence of your vision—perfect for 
+                        gifts, personal projects, or brand identity.<br>
+                        For a retro touch, I also specialize in <b>Pixel Art</b>, crafting custom pixel designs 
+                        that add nostalgia and character to games, websites, or one-of-a-kind artwork.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="portfolio.html" class="button">Portfolio</a>
+        </div>
+        <div class="services-lists">
+            <div class="rwd-services">
+                 <h1>What makes me<br><span>the right choice?</span></h1>
+            </div>
+            <div class="rwd-list">
+                <ul class="Lista">
+                    <li>Personalized Approach</li>
+                    <li class="nobullet">Every project is unique. I collaborate closely with you to bring your vision to life.</li>
+
+                    <li>Quality & Precision</li>
+                    <li class="nobullet">Whether it’s a logo, a website or a portrait, I deliver top-notch results every time.</li>
+
+                    <li>Creative Expertise</li>
+                    <li class="nobullet">A blend of artistic design and technical proficiency ensures that your project is both visually appealing and functional.</li>
+                </ul>
+            </div>
+            <a href="contact.html" class="button">Let's Connect</a>
+        </div>
+
+    </main>
+
+    <footer>
+            <div class="footer-wrapper">
+                <div class="footer-contact">
+                    <a href="index.html"><img src="Slike/LOGO/Logo2.png" alt="IVKIPIVKI logo"></a>
+                    <h3>IVKIPIVKI.</h3>
+                    <p>ivkilypivkily@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <p>you can also find me on:</p>
+                    <a href="https://www.instagram.com/ivkiipivkii" target="_blank"><img src="Slike/FOOTER/ig.svg" alt="instagram @ivkiipivkii"></a>
+                    <a href="https://www.linkedin.com/in/ivananikolovski" target="_blank"><img src="Slike/FOOTER/in.svg" alt="linkedin Ivana Nikolovski"></a>
+                    <a href="https://www.behance.net/ivkipivki" target="_blank"><img src="Slike/FOOTER/behance.svg" alt='behance ivkipivki'></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Copyright | IVKIPIVKI</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>

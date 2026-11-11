@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IVKIPIVKI.</title>
+        <link rel="icon" href="Slike/Logo/Logo1.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="gradient-bg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"/>
+                        <feBlend in="SourceGraphic" in2="goo"/>
+                    </filter>
+                </defs>
+            </svg>
+            <div class="gradients-container">
+                <div class="g1"></div>
+                <div class="g2"></div>
+                <div class="g3"></div>
+                <div class="g4"></div>
+                <div class="interactive"></div>
+            </div>
+        </div>
+
+        <header class="header-wrapper">
+    <div class="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="Slike/LOGO/Logo1.png"></a>
+        </div>
+
+        <nav>
+            <div class="hide-wrapper">
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <button id="menu-button" onclick="showNav()">
+                <img src="Slike/Icon/burger.svg">
+            </button>
+
+            <div class="menu" id="menu">
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+        <main>
+            <div id="hero-wrapper">
+                <video autoplay muted playsinline src="Slike/HERO/ivkipivkiAnimacija.webm" id="desktopVideo"></video>
+                <video autoplay muted playsinline src="Slike/HERO/MobVersion.webm" id="MobileVideo"></video>
+                <div class="hero-text">
+                    <p>Designer by day, debugger by night.<br>I make things look fabulous and work even better.</p>
+                    <a href="portfolio.html" class="button">Portfolio</a>
+                </div>
+            </div>
+
+            <div id="about-wrapper">
+                <div class="about-image">
+                    <img src="Slike/ivkipivki.png" alt="IVKIPIVKI illustration">
+                </div>
+                <div class="about-text-button">
+                    <div class="about-text">
+                        <h2>Hi, I'm Ivana!<br>It's nice to meet you!</h2>
+                        <p>I'm passionate about creating intuitive, user-centered experiences that blend design with technology.
+                            <b style="color:#E65994;">My goal</b> is to build visually stunning, functional websites and apps.
+                            I'm excited to apply my skills to projects and collaborate on innovative ideas!</p>
+                    </div>
+                    <a href="about.html" class="button">Meet me</a>
+                </div>
+            </div>
+
+            <div class="wave-top-wrapper">
+                <div class="wave-top">
+                    <img src="Slike/HOME/wave.svg">
+                </div>
+            </div>
+
+            <div id="services-wrapper">
+                <div class="services-description">
+                    <div class="services-text">
+                        <h2>My services</h2>
+                        <p>I offer a range of creative and technical services that combine design, art and programming.</p>
+                        <div class="Rwd-wrapper">
+                            <div class="services-software">
+                            <h3>Software skills</h3>
+                                <img src="Slike/Icon/ps.svg" alt="Adobe Photoshop">
+                                <img src="Slike/Icon/ai.svg" alt="Adobe Illustrator">
+                                <img src="Slike/Icon/Xd.svg" alt="Adobe Xd">
+                                <img src="Slike/Icon/indd.svg" alt="Adobe InDesign">
+                            </div>
+                            <div class="services-language"> 
+                                <h3>Language skills</h3>
+                                <img src="Slike/Icon/html.svg" alt="HTML5">
+                                <img src="Slike/Icon/css.svg" alt="CSS3">
+                                <img src="Slike/Icon/js.svg" alt="JavaScript">
+                                <img src="Slike/Icon/py.svg" alt="Python">
+                            </div>
+                        </div>  
+                        <br>
+                        <a href="services.html" class="button">Explore my services</a>
+                    </div>
+
+                    <div class="services-cards">
+                        <div class="services-item">
+                            <div class="services-content">
+                                <img src="Slike/Icon/pentool.svg" alt="Graphic Design">
+                                <h3>Graphic Design</h3>
+                            </div>
+                            <p>Custom logos and branding to elevate your business.</p>
+                        </div>
+
+                        <div class="services-item">
+                            <div class="services-content">
+                                <img src="Slike/Icon/ui-ux.svg"  alt="WEB Design">
+                                <h3>Web Design</h3>
+                            </div>
+                            <p>Clean, responsive websites for a great user experience.</p>
+                        </div>
+
+                        <div class="services-item">
+                            <div class="services-content">
+                                <img src="Slike/Icon/pentool.svg" alt="Illustrations">
+                                <h3>Illustration</h3>
+                            </div>
+                            <p>Unique hand-drawn illustrations for any project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wave-bottom-wrapper">
+                <div class="wave-bottom">
+                    <img src="Slike/HOME/wave.svg">
+                </div>
+            </div>        
+
+            <div id="told-wrapper">
+                    <h1>They told<br><span>about me</span></h1>
+                    
+                    <div class="told-card-container">
+                        <div class="card">
+                            <img src="Slike/HOME/told sekcija/Danica.jpg" alt="Danica">
+                            <div class="card-text">
+                                <p>Ivana has collaborated with me on various projects, and I can 
+                                    confidently say that she is an equally wonderful artist and colleague. 
+                                    She is talented and imaginative, always able to accurately read 
+                                    a given situation and audience to present the best conceptual 
+                                    solution, meeting all set criteria. From the very beginning, 
+                                    she has been productive, flexible, and puncrual, and I would 
+                                    highly recommend her as a partner to anyone!
+                                </p>
+                                <h2>Danica.</h2>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Slike/HOME/told sekcija/Marija.jpg" alt="Marija">
+                            <div class="card-text">
+                                <p>Working with Ivana is an exceptional experience. Her ability to 
+                                    clarify ideas, stay organized, and support the team at all 
+                                    times has made the collaboration very productive and inspiring. 
+                                    She is always ready to offer creative solutions and motivate 
+                                    others to give their best. Her dedication and efficiency make 
+                                    her an excellent partner for any project.
+                                </p>
+                                <h2>Marija.</h2>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="Slike/HOME/told sekcija/Anja.jpg" alt="Anja">
+                            <div class="card-text">
+                                <p>Working with Ivana is always a pleasure. Her creativity, expertise, 
+                                    and ability to quickly solve challenges make her an invaluable member 
+                                    of any team. Ivana is highly organized, efficient, and always brings 
+                                    innovative ideas that enhance projects. Additionally, her team spirit 
+                                    and positive energy make collaborating with her both enjoyable and 
+                                    productive. I highly recommend her as a colleague and collaborator!
+                                </p>
+                                <h2>Anja.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+
+            <div id="contact-wrapper">
+                <div class="contact-text-button">
+                    <div class="contact-text">
+                        <h2>Got a<br> project in mind?</h2>
+                        <h3>ivkilypivkily@gmail.com</h3>
+                        <p>I truly cherish building lasting relationships with my clients and 
+                        dedicate a significant portion of my business to long-term collaboration.
+                        </p>
+                    </div>
+                    <a href="contact.html" class="button">Let's Connect</a>
+                </div>
+                <div class="contact-image">
+                    <img src="Slike/ivkipivki.png" alt="IVKIPIVKI illustration">
+                </div>
+            </div>
+
+        </main>
+        
+        <footer> 
+            <div class="footer-wrapper">
+                <div class="footer-contact"> 
+                    <a href="index.html"><img src="Slike/LOGO/Logo2.png" alt="IVKIPIVKI logo"></a>
+                    <h3>IVKIPIVKI.</h3>
+                    <p>ivkilypivkily@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <p>you can also find me on:</p>
+                    <a href="https://www.instagram.com/ivkiipivkii" target="_blank"><img src="Slike/FOOTER/ig.svg" alt="instagram @ivkiipivkii"></a>
+                    <a href="https://www.linkedin.com/in/ivananikolovski" target="_blank"><img src="Slike/FOOTER/in.svg" alt="linkedin Ivana Nikolovski"></a>
+                    <a href="https://www.behance.net/ivkipivki" target="_blank"><img src="Slike/FOOTER/behance.svg" alt='behance ivkipivki'></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Copyright | IVKIPIVKI</p>
+        </footer>
+        <script src="src/main.js"></script>
+    </body>
+</html>

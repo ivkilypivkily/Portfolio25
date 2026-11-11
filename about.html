@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IVKIPIVKI.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="Slike/LOGO/Logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="gradient-bg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+            </svg>
+            <div class="gradients-container">
+                <div class="g1"></div>
+                <div class="g2"></div>
+                <div class="g3"></div>
+                <div class="g4"></div>
+                
+                <div class="interactive"></div>
+            </div>
+        </div>
+    <header>
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" id="logo"><img src="Slike/LOGO/Logo1.png" alt="IVKIPIVKI logo"></a>
+                </div>
+                <div class="header-nav">
+                    <nav>
+                        <div class="hide-wrapper">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                            
+                        <button onclick="showNav()" id="menu-button">
+                            <img src="Slike/Icon/burger.svg">
+                        </button>
+                        <div class="menu" id="menu" style="height: 0px;">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                             <a href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="aboutpage">
+        <div id="about-hero-wrapper">
+            <div class="width-text">
+                <div class="about-hero-text">
+                    <h1><span>Meet your</span><br>designer</h1>
+                </div>
+            </div>  
+        </div>
+
+        <div id="about-main-content">
+            <h2>Hello, It's nice to meet you!</h2>
+            <p>
+                I’m Ivana, or as you might know me online – IVKIPIVKI. 
+                I’m a soon-to-be graduate with degree in Graphic Engineering and Design 
+                from the Faculty of Technical Sciences in Novi Sad.
+            </p>
+            <p> 
+                My journey in design has been one of passion and exploration, 
+                leading me to discover a wide range of creative skills – 
+                from web programming and UI/UX design to digital illustration and beyond.
+            </p>
+            <p>
+                My academic background has helped me build a strong foundation, 
+                but it’s my curiosity and love for problem solving that pushes 
+                me to continuosly learn and grow.
+            </p>
+            <p>
+                I find inspiration in understanding the needs of each client and 
+                translate those needs into designs that are both functional and visually engaging.
+            </p>
+        </div>
+        <div class="about-background-wrapper">
+            <div id="about-funfact-wrapper">
+                <img src="Slike/ivkipivki.png" alt="IVKIPIVKI illustration">
+                <div class="about-text-list">
+                    <div class="funfacts-list">
+                        <h2>Facts about me</h2>
+                        <ul>
+                            <li>In my free time I play volleyball</li>
+                            <li>I love sunglasses….surprise, surprise!</li>
+                            <li>I’m a big fan of building lego sets</li>
+                            <li>Rich history of Dubrovnik left a lasting impression</li>
+                            <li>Learning from Slavimir FUTRO shaped my approach to design</li>
+                        </ul>
+                    </div>
+                    <div class="rwd-about">
+                        <p>
+                        Design isn’t just about completing a project – it’s about creating a <span style="color: #E65994; font-weight: bold;">partnership</span>, 
+                        understanding your <span style="color: #E65994; font-weight: bold;">vision</span>, and working together to bring it to life.
+                        </p>
+                        <p>
+                        I’m passionate about long-term collaborations that allow us to <span style="color: #E65994; font-weight: bold;">grow together</span> 
+                        and create something truly special.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+            <div class="footer-wrapper">
+                <div class="footer-contact">
+                    <a href="index.html"><img src="Slike/LOGO/Logo2.png" alt="IVKIPIVKI logo"></a>
+                    <h3>IVKIPIVKI.</h3>
+                    <p>ivkilypivkily@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <p>you can also find me on:</p>
+                    <a href="https://www.instagram.com/ivkiipivkii" target="_blank"><img src="Slike/FOOTER/ig.svg" alt="instagram @ivkiipivkii"></a>
+                    <a href="https://www.linkedin.com/in/ivananikolovski" target="_blank"><img src="Slike/FOOTER/in.svg" alt="linkedin Ivana Nikolovski"></a>
+                    <a href="https://www.behance.net/ivkipivki" target="_blank"><img src="Slike/FOOTER/behance.svg" alt='behance ivkipivki'></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Copyright | IVKIPIVKI</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>

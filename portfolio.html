@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IVKIPIVKI.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="Slike/LOGO/Logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <div class="gradient-bg">
+            <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+            </svg>
+            <div class="gradients-container">
+                <div class="g1"></div>
+                <div class="g2"></div>
+                <div class="g3"></div>
+                <div class="g4"></div>
+                
+                <div class="interactive"></div>
+            </div>
+        </div>
+    <header>
+        <div class="header-wrapper">
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" id="logo"><img src="Slike/LOGO/Logo1.png" alt="IVKIPIVKI logo"></a>
+                </div>
+                <div class="header-nav">
+                    <nav>
+                        <div class="hide-wrapper">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html">Contact</a>
+                        </div>
+                            
+                        <button onclick="showNav()" id="menu-button">
+                            <img src="Slike/Icon/burger.svg">
+                        </button>
+                        <div class="menu" id="menu" style="height: 0px;">
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="portfolio.html">Portfolio</a>
+                             <a href="contact.html">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="Portfolio-wrapper">
+            <div class="portfolio-container">
+
+                <input type="checkbox" id="p1">
+                <label for="p1" class="project">
+                    <div class="row">
+                    <div class="icon"><img src="Slike/Icon/ui-ux.svg" height="40px"></div>
+                    <div class="description">
+                        <h1>FRATELLI</h1>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <p><b>Fratteli</b> is a project focused on designing
+                        a warm, user-friendly <b>restaurant
+                        app</b> inspired by Italian cuisine.
+                        <span style="color:#E65994;font-weight:bold;">The goal</span> was to create a <b>clean and intuitive
+                        experience</b> where users can explore the
+                        menu, check nutritional information, and
+                        easily save or order their favorite dishes.
+                        With soft colors, simple icons, and a layout
+                        that feels both modern and personal, Fratteli
+                        reflects the way we interact with food -
+                        and with design - in everyday life.</p>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="p2">
+                <label for="p2" class="project">
+                    <div class="row">
+                    <div class="icon"><img src="Slike/Icon/pentool.svg" height="40px"></div>
+                    <div class="description"><h1>STONED RPG</h1></div>
+                    </div>
+                    <div class="column">
+                    <p>A project featuring <b>pixel art characters
+                        design</b> for an RPG platformer inspired
+                        by Greek mythology. Using Aseprite,
+                        <b>I design characters, including
+                        their animations and visual development</b>.
+                        <b style="color:#E65994">My goal</b> was to bring personality and clarity
+                        to each sprite through expressive pixel art,
+                        while staying true to the mythological
+                        theme and platformer mechanics. I handled
+                        the full process ensuring each <b>character
+                        felt dynamic, readable, and consistent</b>
+                        with the game’s tone and narrative.</p>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="p3">
+                <label for="p3" class="project">
+                    <div class="row">
+                    <div class="icon"><img src="Slike/Icon/pentool.svg" height="40px"></div>
+                    <div class="description"><h1>GRAFIJADA</h1></div>
+                    </div>
+                    <div class="column">
+                    <p><b>Grafijada</b> is a event that combines
+                        the spirit of traditional student gatherings
+                        ("ijade") with the format of a conference.
+                        As part of the team, I was responsible
+                        for <b>designing visual content for Instagram
+                        to promote the event, engage the student
+                        community, and communicate key information</b>.
+                        The design features bold typography, vibrant
+                        gradients, and layered elements
+                        that reflect the event’s dynamic and
+                        modern spirit, while staying consistent and
+                        easy to follow across all posts.</p>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="p4">
+                <label for="p4" class="project">
+                    <div class="row">
+                    <div class="icon"><img src="Slike/Icon/pentool.svg" height="40px"></div>
+                    <div class="description">
+                        <h1>GRID EXHIBITION</h1>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <p>As part of the Student Association, I helped
+                        organize the <b>first GRID exhibition</b> — a
+                        showcase of student projects from the
+                        Graphic Engineering and Design program.
+                        The event celebrated creativity across all
+                        years and courses, from posters and 3D
+                        models to calligraphy and video. As a part of
+                        the team, I designed <b>custom stickers</b> used
+                        for promotion event.</p>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="p5">
+                <label for="p5" class="project">
+                    <div class="row">
+                    <div class="icon"><img src="Slike/Icon/pentool.svg" height="40px"></div>
+                    <div class="description">
+                        <h1>DENTIST WEEK</h1>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <p>I developed the <b>visual identity</b> for Healthy
+                        Teeth Week, a children’s dental health campaign.
+                        The branding includes a <b>logo mark,
+                        logotype, and custom pattern</b>. The crocodile
+                        mascot was chosen for its strong teeth, which
+                        are essential for its survival. I illustrated it in a
+                        playful, hand-colored style to feel childlike and
+                        approachable, helping the campaign connect
+                        with young audiences through warmth
+                        and visual storytelling.</p>
+                    </div>
+                </label>
+
+                <input type="checkbox" id="p6">
+                <label for="p6" class="project">
+                    <div class="row">
+                        <div class="icon"><img src="Slike/Icon/pentool.svg" height="40px"></div>
+                        <div class="description">
+                            <h1>HAND-DRAWN</h1>
+                        </div>
+                    </div>
+                    <div class="column">
+                    <p>A collection of <b>hand-drawn portraits</b>. Each
+                        piece captures the unique personality and
+                        energy of the individual through my personal
+                        drawing style and detailed craftsmanship.</p>
+                    </div>
+                </label>
+
+            </div>
+        </div>
+        <div class="portfolio-dugme">
+            <a href="contact.html" class="button">Let's Connect</a>
+        </div>
+    </main>
+
+    <footer> 
+            <div class="footer-wrapper">
+                <div class="footer-contact"> 
+                    <a href="index.html"><img src="Slike/LOGO/Logo2.png" alt="IVKIPIVKI logo"></a>
+                    <h3>IVKIPIVKI.</h3>
+                    <p>ivkilypivkily@gmail.com</p>
+                </div>
+                <div class="footer-social">
+                    <p>you can also find me on:</p>
+                    <a href="https://www.instagram.com/ivkiipivkii" target="_blank"><img src="Slike/FOOTER/ig.svg" alt="instagram @ivkiipivkii"></a>
+                    <a href="https://www.linkedin.com/in/ivananikolovski" target="_blank"><img src="Slike/FOOTER/in.svg" alt="linkedin Ivana Nikolovski"></a>
+                    <a href="https://www.behance.net/ivkipivki" target="_blank"><img src="Slike/FOOTER/behance.svg" alt='behance ivkipivki'></a>
+                </div>
+            </div>
+            <p>&copy; 2025 Copyright | IVKIPIVKI</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>
