@@ -113,7 +113,7 @@ header img, footer img {
 }
 
 .header-logo img:hover {
-    content: url(Slike/LOGO/Logo1Hover.png);
+    content: url(Slike/Logo/Logo1Hover.png);
 }
 
 #menu-button {
@@ -509,7 +509,7 @@ footer {
 }
 
 .footer-contact img:hover {
-    content: url(Slike/LOGO/Logo2Hover.png);
+    content: url(Slike/Logo/Logo2Hover.png);
 }
 
 .footer-social img {
@@ -527,7 +527,7 @@ footer {
     position: relative;
     height: 580px;
 
-    background-image: url("Slike/ABOUT/AboutCover.jpg");
+    background-image: url("Slike/About/AboutCover.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -889,12 +889,12 @@ input[type='checkbox'] {
   display: none;
 }
 
-.project[for="p1"]::before { background-image: url('slike/PORTFOLIO/Fratelli.png');}
-.project[for="p2"]::before { background-image: url('slike/PORTFOLIO/Stoned.png'); }
-.project[for="p3"]::before { background-image: url('slike/PORTFOLIO/Grafijada.png'); }
-.project[for="p4"]::before { background-image: url('slike/PORTFOLIO/GRID.png'); }
-.project[for="p5"]::before { background-image: url('slike/PORTFOLIO/NZZ.png'); }
-.project[for="p6"]::before { background-image: url('slike/PORTFOLIO/Hand-drawn.png'); }
+.project[for="p1"]::before { background-image: url('slike/Portfolio/Fratelli.png');}
+.project[for="p2"]::before { background-image: url('slike/Portfolio/Stoned.png'); }
+.project[for="p3"]::before { background-image: url('slike/Portfolio/Grafijada.png'); }
+.project[for="p4"]::before { background-image: url('slike/Portfolio/GRID.png'); }
+.project[for="p5"]::before { background-image: url('slike/Portfolio/NZZ.png'); }
+.project[for="p6"]::before { background-image: url('slike/Portfolio/Hand-drawn.png'); }
 
 .portfolio-dugme {
     display: flex;
