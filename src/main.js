@@ -31,7 +31,7 @@ let overlay = document.getElementById("overlay");
 function openPopup() {
     popup.classList.add("open-popup");
     overlay.classList.add("show-overlay");
-    return false; // da spreči refresh forme
+    return false;
 }
 
 function closePopup() {
