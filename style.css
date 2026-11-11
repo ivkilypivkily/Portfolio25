@@ -889,12 +889,12 @@ input[type='checkbox'] {
   display: none;
 }
 
-.project[for="p1"]::before { background-image: url('slike/Portfolio/Fratelli.png');}
-.project[for="p2"]::before { background-image: url('slike/Portfolio/Stoned.png'); }
-.project[for="p3"]::before { background-image: url('slike/Portfolio/Grafijada.png'); }
-.project[for="p4"]::before { background-image: url('slike/Portfolio/GRID.png'); }
-.project[for="p5"]::before { background-image: url('slike/Portfolio/NZZ.png'); }
-.project[for="p6"]::before { background-image: url('slike/Portfolio/Hand-drawn.png'); }
+.project[for="p1"]::before { background-image: url('Slike/Portfolio/Fratelli.png');}
+.project[for="p2"]::before { background-image: url('Slike/Portfolio/Stoned.png'); }
+.project[for="p3"]::before { background-image: url('Slike/Portfolio/Grafijada.png'); }
+.project[for="p4"]::before { background-image: url('Slike/Portfolio/GRID.png'); }
+.project[for="p5"]::before { background-image: url('Slike/Portfolio/NZZ.png'); }
+.project[for="p6"]::before { background-image: url('Slike/Portfolio/Hand-drawn.png'); }
 
 .portfolio-dugme {
     display: flex;
